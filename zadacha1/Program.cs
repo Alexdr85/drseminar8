@@ -8,43 +8,43 @@
 //9 5 3 2
 //8 4 4 2
 
-void FillArrayRandom(int[,] array)
+void FillMatrixRandom(int[,] matrix)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            matrix[i, j] = new Random().Next(1, 10);
         }
     }
 }
 
-void SortToLower(int[,] array)
+void SortToLower(int[,] matrix)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            for (int m = 0; m < array.GetLength(1) - 1; m++)
+            for (int m = 0; m < matrix.GetLength(1) - 1; m++)
             {
-                if (array[i, m] < array[i, m + 1])
+                if (matrix[i, m] < matrix[i, m + 1])
                 {
-                    int temp = array[i, m + 1];
-                    array[i, m + 1] = array[i, m];
-                    array[i, m] = temp;
+                    int temp = matrix[i, m + 1];
+                   matrix[i, m + 1] = matrix[i, m];
+                    matrix[i, m] = temp;
                 }
             }
         }
     }
 }
 
-void PrintArray(int[,] array)
+void PrintMatrix(int[,] matrix)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < matrix.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{array[i, j]} ");
+            Console.Write($"{matrix[i, j]} ");
         }
         Console.WriteLine();
     }
@@ -52,8 +52,8 @@ void PrintArray(int[,] array)
 
 
 int[,] table = new int[3, 4];
-FillArrayRandom(table);
-PrintArray(table);
+FillMatrixRandom(table);
+PrintMatrix(table);
 SortToLower(table);
 Console.WriteLine();
-PrintArray(table);
+PrintMatrix(table);
