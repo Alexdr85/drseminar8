@@ -1,0 +1,15 @@
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.csproj.AssemblyReference.cache
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.AssemblyInfoInputs.cache
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.AssemblyInfo.cs
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.csproj.CoreCompileInputs.cache
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/bin/Debug/net7.0/zadacha4
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/bin/Debug/net7.0/zadacha4.deps.json
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/bin/Debug/net7.0/zadacha4.runtimeconfig.json
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/bin/Debug/net7.0/zadacha4.dll
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/bin/Debug/net7.0/zadacha4.pdb
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.dll
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/refint/zadacha4.dll
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.pdb
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/zadacha4.genruntimeconfig.cache
+/home/user/Рабочий стол/dr8/drseminar8/zadacha4/obj/Debug/net7.0/ref/zadacha4.dll
